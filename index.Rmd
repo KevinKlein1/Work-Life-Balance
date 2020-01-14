@@ -1,0 +1,10 @@
+---
+title: "Work-Life-Balance"
+author: Julia Dahmen, Susanna Formanns, Kevin Klein, Theresa Laubach, Lukas Steinke, Freya Wolters
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
