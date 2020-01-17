@@ -65,6 +65,8 @@ rmdtemplates::write_bib(pkgs)
 > "Ein von dem Individuum als ausgewogen empfundenes Gleichgewicht zwischen Berufs- und Privatleben."  
 >
 
+![](images/WLB.jpg)
+
 <br>
 <br>
 
