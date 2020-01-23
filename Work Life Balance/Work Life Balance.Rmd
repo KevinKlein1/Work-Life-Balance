@@ -249,6 +249,127 @@ Hypothese 5
 
 # Ergebnisse {-}
 
+### Unterschiede {-}
+
+<br>
+
+#### Hypothese 1: {-}
+
+Mitarbeiter, die mit ihren Arbeitszeiten zufrieden sind, weisen einen besseren Switch-off auf.
+
+Es gibt einen signifikanten Unterschied zwischen der Arbeitszufriedenheit und dem Switch off ($p<0.001$). Es gibt einen signifikanten Unterschied zwischen der Arbeitszeit und dem Switch off $F(2)=11.7$, $p<0.001$.
+
+<br>
+
+#### Hypothese 2 {-}
+Mitarbeiter mit geringerer Arbeitszeit (bis zu 29 Std. pro Woche) und geringerer Arbeitsintensität (keine Überstunden) weisen einen besseren Switch-off auf.
+
+Es gibt keinen signifikanten unterschied zwischen der Arbeitszeit und dem Switch off ($p>0.05$). Anders ist es bei der Arbeitintensität und dem Switch off, hier gibt es einen signifikanten Unterschied ($p<0.001$). 
+Betrachtet man Arbeitszeit und -intensität in Bezug auf den Switch off, gibt es wiederum keinen signifikanten Unterschied ($p>0.05$).
+
+<br>
+
+#### Hypothese 3 {-}
+Mitarbeiter, die länger (über den Mediansplit der Arbeitsjahre) in der aktuellen Jobposition beschäftigt sind, weisen einen besseren Switch-off auf.
+
+Hypothese konnte nicht getestet werden.
+
+<br>
+
+#### Hypothese 4: {-}
+Mitarbeiter, die den Großteil der Woche (3 Tage oder mehr) nicht am Arbeitsplatz arbeiten, weisen einen schlechteren Switch-off auf.
+
+Hypothese konnte nicht getestet werden.
+
+<br>
+
+#### Hypothese 5: {-}
+Mitarbeiter, die flexibel in ihrem Job sind, weisen einen besseren Switch-off und eine höhere Arbeitszufriedenheit auf.
+
+Es gibt keinen signifikaten Unterschied zwischen der Arbeitsintensität und dem Switch Off ($p>0.05$).
+Anders ist es bei der Arbeitsflexibilität und der Arbeitszufriedenheit. Hier besteht ein signifikanter Unterschied ($p<0.001$).
+
+
+<br>
+<br>
+
+### Korrelation {-}
+
+<br>
+
+#### Hypothese 1: {-}
+Je höher die  Arbeitszufriedenheit, desto einfacher fällt der Switch-off.
+
+Es gibt einen positiven signifikanten Zusammenhang zwischen der Arbeitszufriedenheit und dem Switch-off ($\tau = 0.123$, $p<0.001$). Das bedeutet, dass mit steigender Arbeitszufriedenheit die Fähigkeit von der Arbeit abzuschalten steigt.
+
+![](images/korhyp1.PNG)
+
+<br>
+
+#### Hypothese 2: {-}
+Je höher die Position bei der Arbeit, desto schwieriger fällt der Switch-off.
+
+Es gibt keinen signifikanten Zusammenhang zwischen der Position der Arbeit und dem Switch-off ($\tau=-0.054$, $p>0.05$) oder dieser konnte hier nicht festgestellt werden.
+
+![](images/korhyp2.png)
+
+<br>
+
+#### Hypothese 3: {-}
+Je mehr Remote Working betrieben wird, desto schwieriger fällt der Switch-off.
+
+Es gibt keinen signifikanten Zusammenhang zwischen Remote Working und Switch-off ($\tau=-0.054$, $p>0.05$) oder dieser konnte hier nicht festgestellt werden.
+
+![](images/korhyp3.PNG)
+
+<br>
+
+#### Hypothese 4: {-}
+
+Je flexibler die Arbeit eingeteilt werden kann, desto höher ist die Arbeitszufriedenheit.
+
+Es gibt einen positiven signifikanten Zusammenhang zwischen der Flexibilität der Arbeit und der Arbeitszufriedenheit ($\tau=0.241$, $p<0.001$). Die Arbeitszufriedenheit steigt, wenn die Arbeit flexibel eingeteilt werden kann.
+
+![](images/korhyp4.PNG)
+
+
+<br>
+
+#### Hypothese 5: {-}
+Je höher die Entfernung zur Arbeit, desto einfacher fällt der Switch-off.
+
+Es gibt keinen signifikanten Zusammenhang zwischen der Entfernung zur Arbeit und dem Switch-off ($\tau=-0.034$, $p>0.05$) oder dieser konnte hier nicht festgestellt werden.
+
+![](images/korhyp5.PNG)
+
+<br>
+
+### weitere induktive Korrelationen {-}
+
+<br>
+
+#### induktive Korrelation 1 {-}
+Es gibt einen positiven signifikantenm Zusammenhang zwischen der Arbeitszufriedenheit und der Arbeitszeitenzufriedenheit ($\tau=0.357$, $p<0.001$). Die allgemeine Arbeitszufriedenheit steigt mir der Zufriedenheit bezüglich den Arbeitszeiten.
+
+![](images/indkor1.PNG)
+
+<br>
+
+#### induktive Korrelation 2 {-}
+Es gibt einen signifikanten negativen Zusammenhang zwischen der Arbeitsintensität und dem Switch-off ($\tau=-0.33$, $p<0.001$). Je höher die Arbeitsintensität, desto schwieriger fällt der Switch-off.
+
+![](images/indkor2.PNG)
+
+<br>
+
+#### induktive Korrelation 3 {-}
+
+Es gibt einen signifikanten negativen Zusammenhang zwischen der Arbeitsintensität und der Arbeitszeitenzufriedenheit ($\tau=-0.281$, $p<0.001$). Je höher die Arbeitsintensität, desto geringer ist die Arbeitszeitenzufriedenheit.
+
+![](images/indkor3.PNG)
+
+
+
 # Diskussion {-}
 
 # Methodenreflexion {-}
