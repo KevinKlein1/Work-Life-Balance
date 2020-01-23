@@ -152,7 +152,9 @@ Zu Beginn werden demographische Daten wie das Alter, das Geschlecht und die Herk
 Hypothese 1  
 
 * Hypothese: Mitarbeiter, die mit ihren Arbeitszeiten zufrieden sind, weisen einen besseren Switch-off auf.
-* Verfahren: T-Test
+* Verfahren: one-way ANOVA
+* UV: Arbeitszeitenzufriedenheit
+* AV: Switch-off
 * H0: Mitarbeiter, die zufrieden mit ihren Arbeitszeiten sind und die, die unzufrieden mit ihren Arbeitszeiten sind, unterscheiden sich nicht im Switch-off.
 * H1: Mitarbeiter, die zufrieden mit ihren Arbeitszeiten sind und die, die unzufrieden mit ihren Arbeitszeiten sind, unterscheiden sich im Switch-off.
 
@@ -160,7 +162,7 @@ Hypothese 1
 
 Hypothese 2  
 
-* Hypothese: Mitarbeiter mit geringerer Arbeitszeit (bis zu 39 Std. pro Woche) und geringerer Arbeitsintensität (keine Überstunden) weisen einen besseren Switch-off auf.
+* Hypothese: Mitarbeiter mit geringerer Arbeitszeit (bis zu 29 Std. pro Woche) und geringerer Arbeitsintensität (keine Überstunden) weisen einen besseren Switch-off auf.
 * Verfahren: two-way ANOVA
 * UV: Arbeitszeit, Arbeitsintensität
 * AV: Switch-off
@@ -239,8 +241,9 @@ Hypothese 5
 * H1: Die Entfernung zur Arbeit und der Switch-off korrelieren positiv.
 * H0: Die Entfernung zur Arbeit und der Switch-off korrelieren nicht.
 
-
 # Methodik {-}
+
+
 
 # Stichprobenbeschreibung {-}
 
