@@ -243,47 +243,103 @@ Hypothese 5
 
 # Methodik {-}
 
+### Erhebung {-}
+
+* quantitative Erhebung in Form eines Online-Fragebogens
+    * basierend auf recherchierter Literatur
+    * keine Voraussetzungen für die Teilnahmne
+* Aufbau des Fragebogens
+    * demographische Daten
+    * berufliche Aspekte
+    * Work-Life-Balance
+    * Einschätzung zum Einfluss von Telework auf die Work-Life-Balance
+
+### Auswertung {-}
+
+* quantitative Auswertung in R
+* abhängig von der zu untersuchenden Hypothese wurden siginifikante Unterschiede und Zusammenhänge gesucht:
+    * t-tests
+    * one-way-Anova
+    * two-way-Anova
+    * one-way-Manova
+
+
 
 
 # Stichprobenbeschreibung {-}
 
-# Ergebnisse {-}
+N = 468  
+In der Stichprobe haben 205 Probanden angegeben, dass sie Remote Working wahrnehmen können.
 
-### Unterschiede {-}
+Frauen: 233  
+Männer: 207  
+divers: 3  
+NA's: 25  
 
 <br>
 
-#### Hypothese 1: {-}
+Alter:
 
+* Min: 16
+* Max: 72
+* Median: 26
+* Mean: 31
+* Modus: 24
+* NA's: 25
+
+![](images/alter.png)
+
+
+
+
+# Ergebnisse und Diskussion {-}
+
+## Unterschiede {-}
+
+### Hypothese 1 {-}
 Mitarbeiter, die mit ihren Arbeitszeiten zufrieden sind, weisen einen besseren Switch-off auf.
 
-Es gibt einen signifikanten Unterschied zwischen der Arbeitszufriedenheit und dem Switch off ($p<0.001$). Es gibt einen signifikanten Unterschied zwischen der Arbeitszeit und dem Switch off $F(2)=11.7$, $p<0.001$.
+Es gibt einen signifikanten Unterschied zwischen der Arbeitszufriedenheit und dem Switch-off ($p<0.001$). Es gibt einen signifikanten Unterschied zwischen der Arbeitszeit und dem Switch-off $F(2)=11.7$, $p<0.001$.
+
+#### Diskussion {-}
+
+* Telework kann die Abgrenzung/Einhaltung der Arbeitszeiten erschweren.
+* Zufriedenheit mit den Arbeitszeiten (weil diese z.B. gut einteilbar sind etc.) hat auch einen Einfluss auf den Switch-off.
+    * bei Telework sollte besonders auf das Einhalten der Arbeitszeiten geachtet werden, um den Switch-off nicht zu erschweren.
 
 <br>
 
-#### Hypothese 2 {-}
-Mitarbeiter mit geringerer Arbeitszeit (bis zu 29 Std. pro Woche) und geringerer Arbeitsintensität (keine Überstunden) weisen einen besseren Switch-off auf.
+### Hypothese 2 {-}
 
-Es gibt keinen signifikanten unterschied zwischen der Arbeitszeit und dem Switch off ($p>0.05$). Anders ist es bei der Arbeitintensität und dem Switch off, hier gibt es einen signifikanten Unterschied ($p<0.001$). 
-Betrachtet man Arbeitszeit und -intensität in Bezug auf den Switch off, gibt es wiederum keinen signifikanten Unterschied ($p>0.05$).
+Mitarbeiter mit geringerer Arbeitszeit und geringerer Arbeitsintensität weisen einen besseren Switch-off auf.
+
+Es gibt keinen signifikanten Unterschied zwischen der Arbeitszeit und dem Switch-off ($p>0.05$). Anders ist es bei der Arbeitsintensität und dem Switch off, hier gibt es einen signifikanten Unterschied ($p<0.001$).
+Betrachtet man Arbeitszeit und -intensität gemeinsam in Bezug auf den Switch-off, gibt es wiederum keinen signifikanten Unterschied ($p>0.05$).
+
+#### Diskussion {-}
+
+* laut Paper steigt die Arbeitszeit durch Telework an. Die Arbeitszufriedenheit wird hierdurch nicht beeinflusst. Qualitativen Umfragen zufolge sinkt im Gegenzug die Arbeitsintensität minimal (vgl. Felstead/Hensek: 2017).
+
+* Laut unseren Ergebnissen korrelieren die Arbeitszeit und der Switch-off nicht miteinander. Mit steigender Arbeitsintensität fällt jedoch der Switch-off schwerer - wemnn auch nur minimal.
+
 
 <br>
 
-#### Hypothese 3 {-}
+### Hypothese 3 {-}
 Mitarbeiter, die länger (über den Mediansplit der Arbeitsjahre) in der aktuellen Jobposition beschäftigt sind, weisen einen besseren Switch-off auf.
 
 Hypothese konnte nicht getestet werden.
 
 <br>
 
-#### Hypothese 4: {-}
+### Hypothese 4: {-}
 Mitarbeiter, die den Großteil der Woche (3 Tage oder mehr) nicht am Arbeitsplatz arbeiten, weisen einen schlechteren Switch-off auf.
 
 Hypothese konnte nicht getestet werden.
 
 <br>
 
-#### Hypothese 5: {-}
+### Hypothese 5: {-}
 Mitarbeiter, die flexibel in ihrem Job sind, weisen einen besseren Switch-off und eine höhere Arbeitszufriedenheit auf.
 
 Es gibt keinen signifikaten Unterschied zwischen der Arbeitsintensität und dem Switch Off ($p>0.05$).
@@ -293,11 +349,11 @@ Anders ist es bei der Arbeitsflexibilität und der Arbeitszufriedenheit. Hier be
 <br>
 <br>
 
-### Korrelation {-}
+## Korrelation {-}
 
-<br>
 
-#### Hypothese 1: {-}
+
+### Hypothese 1: {-}
 Je höher die  Arbeitszufriedenheit, desto einfacher fällt der Switch-off.
 
 Es gibt einen positiven signifikanten Zusammenhang zwischen der Arbeitszufriedenheit und dem Switch-off ($\tau = 0.123$, $p<0.001$). Das bedeutet, dass mit steigender Arbeitszufriedenheit die Fähigkeit von der Arbeit abzuschalten steigt.
@@ -306,7 +362,7 @@ Es gibt einen positiven signifikanten Zusammenhang zwischen der Arbeitszufrieden
 
 <br>
 
-#### Hypothese 2: {-}
+### Hypothese 2: {-}
 Je höher die Position bei der Arbeit, desto schwieriger fällt der Switch-off.
 
 Es gibt keinen signifikanten Zusammenhang zwischen der Position der Arbeit und dem Switch-off ($\tau=-0.054$, $p>0.05$) oder dieser konnte hier nicht festgestellt werden.
@@ -315,7 +371,7 @@ Es gibt keinen signifikanten Zusammenhang zwischen der Position der Arbeit und d
 
 <br>
 
-#### Hypothese 3: {-}
+### Hypothese 3: {-}
 Je mehr Remote Working betrieben wird, desto schwieriger fällt der Switch-off.
 
 Es gibt keinen signifikanten Zusammenhang zwischen Remote Working und Switch-off ($\tau=-0.054$, $p>0.05$) oder dieser konnte hier nicht festgestellt werden.
@@ -324,7 +380,7 @@ Es gibt keinen signifikanten Zusammenhang zwischen Remote Working und Switch-off
 
 <br>
 
-#### Hypothese 4: {-}
+### Hypothese 4: {-}
 
 Je flexibler die Arbeit eingeteilt werden kann, desto höher ist die Arbeitszufriedenheit.
 
@@ -332,10 +388,14 @@ Es gibt einen positiven signifikanten Zusammenhang zwischen der Flexibilität de
 
 ![](images/korhyp4.PNG)
 
+#### Diskussion {-}
+* mit Telework geht Flexibilität hinsichtlich Arbeitszeit & -ort einher. Steigende Flexibilität steigert auch die Arbeitszufriedenheit.
+* Telework bzw. Faktoren, die dieses mit sich bringt, beeinflussen die Arbeitszufriedenheit positiv.
+
 
 <br>
 
-#### Hypothese 5: {-}
+### Hypothese 5: {-}
 Je höher die Entfernung zur Arbeit, desto einfacher fällt der Switch-off.
 
 Es gibt keinen signifikanten Zusammenhang zwischen der Entfernung zur Arbeit und dem Switch-off ($\tau=-0.034$, $p>0.05$) oder dieser konnte hier nicht festgestellt werden.
@@ -344,25 +404,25 @@ Es gibt keinen signifikanten Zusammenhang zwischen der Entfernung zur Arbeit und
 
 <br>
 
-### weitere induktive Korrelationen {-}
+## weitere induktive Korrelationen {-}
 
-<br>
+Des Weiteren konnten Korrelationen gefunden werden, die zwar nicht zuvor in den Hypothesen formuliert wurden, jedoch aussagekräftige Ergebnisse beinhalten.
 
-#### induktive Korrelation 1 {-}
+### induktive Korrelation 1 {-}
 Es gibt einen positiven signifikantenm Zusammenhang zwischen der Arbeitszufriedenheit und der Arbeitszeitenzufriedenheit ($\tau=0.357$, $p<0.001$). Die allgemeine Arbeitszufriedenheit steigt mir der Zufriedenheit bezüglich den Arbeitszeiten.
 
 ![](images/indkor1.PNG)
 
 <br>
 
-#### induktive Korrelation 2 {-}
+### induktive Korrelation 2 {-}
 Es gibt einen signifikanten negativen Zusammenhang zwischen der Arbeitsintensität und dem Switch-off ($\tau=-0.33$, $p<0.001$). Je höher die Arbeitsintensität, desto schwieriger fällt der Switch-off.
 
 ![](images/indkor2.PNG)
 
 <br>
 
-#### induktive Korrelation 3 {-}
+### induktive Korrelation 3 {-}
 
 Es gibt einen signifikanten negativen Zusammenhang zwischen der Arbeitsintensität und der Arbeitszeitenzufriedenheit ($\tau=-0.281$, $p<0.001$). Je höher die Arbeitsintensität, desto geringer ist die Arbeitszeitenzufriedenheit.
 
@@ -370,16 +430,19 @@ Es gibt einen signifikanten negativen Zusammenhang zwischen der Arbeitsintensit�
 
 
 
-# Diskussion {-}
-
 # Methodenreflexion {-}
 
 * Probleme beim Zugriff auf den Fragebogen
-* Fragebogen für Mobilgeräte nicht optimiert
+* Fragebogen nicht optimiert für Mobilgeräte
+* Optimierung der Hypothesenformulierung
 * Einteilung von Arbeitszeit und Häufigkeit bei Telework (Beantwortung optimieren)
 * stärker auf den Job an sich eingehen
     * Ist Telework räumlich möglich?
     * Ist eine freie Einteilung der Arbeitszeit möglich?
+* freies Feld am Ende der Umfrage, um Teilnehmer die Möglichkeit zu geben, Feedback zu geben
+    
+    
+
 
 # Ausblick {-}
 
